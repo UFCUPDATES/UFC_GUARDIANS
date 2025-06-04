@@ -38,9 +38,9 @@ func init() {
 		"https://telegra.ph/file/ba238ec5e542d8754cea7-dc1786aa23ae1224f2.jpg",
 		nil,
 	)
-	LoggerId = Getenv("LOGGER_ID", "-1002440588212", parseToInt64)
+	LoggerId = Getenv("LOGGER_ID", "-1002267586320", parseToInt64)
 	MongoUri = Getenv[string]("MONGO_DB_URI", "", nil)
-	OwnerId = Getenv("OWNER_ID", "5663483507", parseToInt64)
+	OwnerId = Getenv("OWNER_ID", "7978151350", parseToInt64)
 
 	if Token == "" {
 		log.Panic("TOKEN environment variable is empty")
