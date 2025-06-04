@@ -5,7 +5,7 @@ import (
 
 	"github.com/PaulSonOfLars/gotgbot/v2"
 
-	"github.com/Vivekkumar-IN/EditguardianBot/config"
+	"github.com/Silenthrax/EDITGUARDIANBOT/config"
 )
 
 type AdminData struct {
