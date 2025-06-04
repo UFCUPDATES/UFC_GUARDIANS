@@ -19,7 +19,7 @@ func EditedMessagePanel(b *gotgbot.Bot) gotgbot.InlineKeyboardMarkup {
 			"➕ Add me to Your Group",
 			fmt.Sprintf("https://t.me/%s?startgroup=s&admin=delete_messages+invite_users", b.User.Username),
 		),
-	)
+	) 
 
 	return btn.Build()
 }
