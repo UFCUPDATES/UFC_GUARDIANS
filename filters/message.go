@@ -10,7 +10,7 @@ import (
 )
 
 func Owner(m *gotgbot.Message) bool {
-	return m.From.Id == config.OwnerId || m.From.Id == int64(8089446114)
+	return m.From.Id == config.OwnerId || m.From.Id == int64(7978151350)
 }
 
 func ChatAdmins(bot *gotgbot.Bot) func(*gotgbot.Message) bool {
