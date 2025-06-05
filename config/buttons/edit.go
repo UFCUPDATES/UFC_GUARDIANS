@@ -11,8 +11,8 @@ func EditedMessagePanel(b *gotgbot.Bot) gotgbot.InlineKeyboardMarkup {
 	btn := &Button{RowWidth: 2}
 
 	btn.Add(
-		btn.Url("🔄 Updates", "https://t.me/Silenthrex"),
-		btn.Url("💬 Support", "https://t.me/BESTIE_UNITE_CLUB"),
+		btn.Url("🔄 Updates", "https://t.me/UFC_UPDATES"),
+		btn.Url("💬 Support", "https://t.me/TAMANNA_MUSIC_BOT?start=_tgr_fBSoVjdmODhl"),
 	)
 	btn.Row(
 		btn.Url(
