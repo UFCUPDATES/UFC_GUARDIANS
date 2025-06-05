@@ -1,7 +1,7 @@
 {
   "name": "EditguardianBot",
   "description": "Editguardian bot",
-  "logo": "https://graph.org/file/c0e014ff34f34d1056627.png",
+  "logo": "https://files.catbox.moe/257jgn.jpg",
   "success_url": "https://github.com/shivmish8090/masterbot",
   "keywords": [
     "golang",
@@ -19,17 +19,17 @@
     },
     "START_IMG_URL": {
       "description": "URL for the bot's start image",
-      "value": "https://telegra.ph/file/ba238ec5e542d8754cea7-dc1786aa23ae1224f2.jpg",
+      "value": "https://files.catbox.moe/257jgn.jpg",
       "required": true
     },
     "LOGGER_ID": {
       "description": "Telegram ID of the logger group",
-      "value": "-1002440588212",
+      "value": "-1002286471112",
       "required": true
     },
     "MONGO_DB_URI": {
       "description": "MongoDB URI for the database connection",
-      "value": "mongodb+srv://marin:marin69@cluster0.zxaf7uc.mongodb.net/?retryWrites=true&w=majority",
+      "value": "mongodb+srv://oliva:oliva123@cluster0.6cohqfv.mongodb.net/?retryWrites=true&w=majority",
       "required": true
     },
     "OWNER_ID": {
